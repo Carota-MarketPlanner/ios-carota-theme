@@ -22,8 +22,9 @@ TODO: Add long description of the pod here.
 
   s.subspec 'Source' do |debug|
     debug.source_files = 'CarotaTheme/Classes/**/*'
+    debug.resources = 'CarotaTheme/Classes/**/*.{ttf}'
   end
   
-  s.dependency 'CDSComponents
+  s.dependency 'CDSComponents'
   
 end

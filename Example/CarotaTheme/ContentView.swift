@@ -6,14 +6,13 @@
 //
 
 import SwiftUI
+import CDSComponents
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            CDSLabel(style: .primary("Hello, world!", type: .largeContent))
+            CDSIconButton(icon: "plus.circle", style: .primary(type: .default(size: .normal)), action: {})
         }
         .padding()
     }

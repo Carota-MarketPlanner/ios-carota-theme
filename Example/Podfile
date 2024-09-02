@@ -6,6 +6,6 @@ use_frameworks!
 target 'CarotaTheme-Example' do
   pod 'CarotaTheme/Source', :path => '../'
   
-  pod 'CDSComponents/Source', '1.0.0'
+  pod 'CDSComponents/Source', '1.0.1'
 
 end
