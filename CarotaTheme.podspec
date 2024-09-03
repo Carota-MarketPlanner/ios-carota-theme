@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CarotaTheme'
-  s.version          = '1.0.0'
+  s.version          = '1.0.3'
   s.summary          = 'Theme to set Carota App according with CDSComponents.'
 
   s.description      = <<-DESC
@@ -17,7 +17,7 @@ TODO: Add long description of the pod here.
   s.default_subspecs = "Binary"
 
   s.subspec 'Binary' do |release|
-    release.vendored_frameworks = 'CarotaTheme.framework'
+    release.vendored_frameworks = 'Release/CarotaTheme.xcframework'
   end
 
   s.subspec 'Source' do |debug|
