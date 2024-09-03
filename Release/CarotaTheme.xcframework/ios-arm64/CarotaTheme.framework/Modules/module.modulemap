@@ -1,0 +1,11 @@
+framework module CarotaTheme {
+  umbrella header "CarotaTheme-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CarotaTheme.Swift {
+  header "CarotaTheme-Swift.h"
+  requires objc
+}
