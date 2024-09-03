@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CarotaTheme'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Theme to set Carota App according with CDSComponents.'
 
   s.description      = <<-DESC
