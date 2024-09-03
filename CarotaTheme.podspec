@@ -17,7 +17,7 @@ TODO: Add long description of the pod here.
   s.default_subspecs = "Binary"
 
   s.subspec 'Binary' do |release|
-    release.vendored_frameworks = 'CarotaTheme.framework'
+    release.vendored_frameworks = 'CarotaTheme.xcframework'
   end
 
   s.subspec 'Source' do |debug|
