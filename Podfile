@@ -3,8 +3,12 @@ source 'https://github.com/Carota-MarketPlanner/Specs.git'
 platform :ios, '15.0'
 use_frameworks!
 
-target 'CarotaTheme-Example' do
-  pod 'CarotaTheme/Source', :path => '../'
+target 'CarotaTheme' do
+  pod 'CDSComponents', '1.1.0'
+end
+
+target 'CarotaThemeExample' do
+  # pod 'CarotaTheme/Source', :path => './'
   
   pod 'CDSComponents', '1.1.0'
 
