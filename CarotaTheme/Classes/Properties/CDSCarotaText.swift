@@ -5,6 +5,7 @@
 //  Created by Elias Ferreira on 01/09/24.
 //
 
+import Foundation
 import CDSComponents
 
 public class CDSCarotaText: CDSText {

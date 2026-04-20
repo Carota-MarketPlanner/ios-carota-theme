@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DE6CD3A22C85588D003C2DD1"
-               BuildableName = "CarotaTheme-Example.app"
-               BlueprintName = "CarotaTheme-Example"
+               BuildableName = "CarotaThemeExample.app"
+               BlueprintName = "CarotaThemeExample"
                ReferencedContainer = "container:CarotaTheme.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DE6CD3A22C85588D003C2DD1"
-            BuildableName = "CarotaTheme-Example.app"
-            BlueprintName = "CarotaTheme-Example"
+            BuildableName = "CarotaThemeExample.app"
+            BlueprintName = "CarotaThemeExample"
             ReferencedContainer = "container:CarotaTheme.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DE6CD3A22C85588D003C2DD1"
-            BuildableName = "CarotaTheme-Example.app"
-            BlueprintName = "CarotaTheme-Example"
+            BuildableName = "CarotaThemeExample.app"
+            BlueprintName = "CarotaThemeExample"
             ReferencedContainer = "container:CarotaTheme.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
