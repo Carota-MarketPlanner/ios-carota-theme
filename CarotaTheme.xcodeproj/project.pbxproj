@@ -11,8 +11,6 @@
 		B81D99CB3D7329AA1A9E550F /* Pods_CarotaTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3FC3272F96E13000E46A29 /* Pods_CarotaTheme.framework */; };
 		DE3FC2E22F96DD3B00E46A29 /* CarotaTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3FC2DC2F96DD3B00E46A29 /* CarotaTheme.framework */; };
 		DE3FC2E32F96DD3B00E46A29 /* CarotaTheme.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE3FC2DC2F96DD3B00E46A29 /* CarotaTheme.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DE3FC30B2F96DD4200E46A29 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE3FC2FE2F96DD4200E46A29 /* Poppins-Medium.ttf */; };
-		DE3FC30C2F96DD4200E46A29 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE3FC2FF2F96DD4200E46A29 /* Poppins-SemiBold.ttf */; };
 		DE3FC30E2F96DD4200E46A29 /* CDSCarotaColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3FC3012F96DD4200E46A29 /* CDSCarotaColor.swift */; };
 		DE3FC30F2F96DD4200E46A29 /* CDSCarotaSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3FC3022F96DD4200E46A29 /* CDSCarotaSize.swift */; };
 		DE3FC3102F96DD4200E46A29 /* CDSCarotaText.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3FC3032F96DD4200E46A29 /* CDSCarotaText.swift */; };
@@ -21,6 +19,8 @@
 		DE6CD3A92C85588D003C2DD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6CD3A82C85588D003C2DD1 /* ContentView.swift */; };
 		DE6CD3AB2C85588D003C2DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6CD3AA2C85588D003C2DD1 /* Assets.xcassets */; };
 		DE6CD3AE2C85588D003C2DD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6CD3AD2C85588D003C2DD1 /* Preview Assets.xcassets */; };
+		DEF0124D2F96F5DD00B756C4 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE3FC2FE2F96DD4200E46A29 /* Poppins-Medium.ttf */; };
+		DEF0124E2F96F5EA00B756C4 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE3FC2FF2F96DD4200E46A29 /* Poppins-SemiBold.ttf */; };
 		FE6FC0B7BA34E2DE75F65301 /* Pods_CarotaTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D42E9F6B7161EEADEAFF3DA /* Pods_CarotaTheme.framework */; };
 /* End PBXBuildFile section */
 
@@ -300,8 +300,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE3FC30B2F96DD4200E46A29 /* Poppins-Medium.ttf in Resources */,
-				DE3FC30C2F96DD4200E46A29 /* Poppins-SemiBold.ttf in Resources */,
+				DEF0124D2F96F5DD00B756C4 /* Poppins-Medium.ttf in Resources */,
+				DEF0124E2F96F5EA00B756C4 /* Poppins-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
