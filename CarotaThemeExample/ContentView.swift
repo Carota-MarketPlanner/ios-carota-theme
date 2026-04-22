@@ -9,7 +9,6 @@ import SwiftUI
 import CDSComponents
 
 struct ContentView: View {
-    @CDSThemeCore var theme: CDSTheme // Example of unwrapped theme.
     
     var body: some View {
         VStack {

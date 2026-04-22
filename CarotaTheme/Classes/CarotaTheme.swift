@@ -9,11 +9,11 @@ import Foundation
 import CDSComponents
 
 public class CDSCarotaTheme: CDSTheme {
-    public init() {}
+    public var colors: [String: String] = CDSCarotaColor.exampleColors
+    public var sizes: [String: Float] = CDSCarotaSize.exampleSize
+    public var fonts: [String: CDSFont] = CDSCarotaText.exampleText
     
-    public var colors = CDSCarotaColor.shared
-    public var sizes = CDSCarotaSize.shared
-    public var fonts = CDSCarotaText.shared
+    public init() {}
     
     public var bundle: Bundle {
         Bundle(for: CDSCarotaTheme.self)
